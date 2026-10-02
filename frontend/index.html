@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Receipt Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Smart Receipt Generator</h1>
+        <p>AI-Powered Receipt Generation</p>
+    </header>
+
+    <main>
+
+        <section class="input-section">
+
+            <h2>Create Your Receipt</h2>
+
+            <label for="command">
+                Enter your purchase details
+            </label>
+
+            <textarea
+                id="command"
+                placeholder="Example: 2 Maggi and 1 Milk"
+            ></textarea>
+
+            <button id="generateBtn">
+                Generate Receipt
+            </button>
+
+        </section>
+
+
+        <section class="receipt-section">
+
+            <h2>Receipt Preview</h2>
+
+            <div id="output">
+
+                <p class="placeholder">
+                    Your generated receipt will appear here.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Smart Receipt Generator | AI + Flask + MySQL</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
